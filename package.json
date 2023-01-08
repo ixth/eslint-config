@@ -1,0 +1,22 @@
+{
+  "private": false,
+  "name": "@ixth/eslint-config",
+  "version": "0.0.1-rc.0",
+  "description": "My Preferred ESLint Configs",
+  "homepage": "https://github.com/ixth/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "github:ixth/eslint-config"
+  },
+  "author": {
+    "name": "Mikhail Menshikov",
+    "email": "ainop@ya.ru"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "workspaces": [
+    "packages/base",
+    "packages/react",
+    "packages/typescript"
+  ]
+}

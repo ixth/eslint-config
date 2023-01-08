@@ -1,0 +1,27 @@
+{
+  "name": "@ixth/eslint-config-typescript",
+  "version": "0.0.1-rc.0",
+  "description": "My Preferred ESLint Config For TypeScript Projects",
+  "homepage": "https://github.com/ixth/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "github:ixth/eslint-config",
+    "directory": "packages/typescript"
+  },
+  "author": {
+    "name": "Mikhail Menshikov",
+    "email": "ainop@ya.ru"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "@ixth/eslint-config-base": "^0.0.1-rc.0"
+  }
+}
