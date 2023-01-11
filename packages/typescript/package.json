@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 4.1.0"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^5.48.0",
