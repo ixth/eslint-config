@@ -1,5 +1,4 @@
 module.exports = {
-    extends: ['@ixth/eslint-config-base'],
     overrides: [
         {
             files: ['*.ts', '*.tsx'],
@@ -29,4 +28,9 @@ module.exports = {
             },
         },
     ],
+    settings: {
+        'import/parsers': {
+            '@typescript-eslint/parser': ['.ts', '.tsx']
+        },
+    }
 };

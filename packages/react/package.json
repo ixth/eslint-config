@@ -1,6 +1,6 @@
 {
   "name": "@ixth/eslint-config-react",
-  "version": "0.0.1-rc.0",
+  "version": "0.0.1-rc.1",
   "description": "My Preferred ESLint Config For React Projects",
   "homepage": "https://github.com/ixth/eslint-config#readme",
   "repository": {
@@ -14,7 +14,9 @@
   },
   "main": "index.js",
   "exports": {
-    ".": "./index.js",
+    ".": "./base.js",
+    "./jsx": "./jsx.js",
+    "./tsx": "./tsx.js",
     "./package.json": "./package.json"
   },
   "license": "MIT",
@@ -22,8 +24,8 @@
     "eslint": ">= 3"
   },
   "dependencies": {
-    "@ixth/eslint-config-base": "^0.0.1-rc.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.32.0",
     "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
