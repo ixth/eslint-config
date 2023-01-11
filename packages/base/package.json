@@ -1,6 +1,6 @@
 {
   "name": "@ixth/eslint-config-base",
-  "version": "0.0.1-rc.1",
+  "version": "0.0.1-rc.2",
   "description": "My Preferred ESLint Config",
   "homepage": "https://github.com/ixth/eslint-config#readme",
   "repository": {
