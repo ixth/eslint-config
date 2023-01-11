@@ -1,12 +1,7 @@
 module.exports = {
-    extends: ['@ixth/eslint-config-base'],
-    rules: {
-        // errors
-        'react/jsx-filename-extension': [
-            'error',
-            { extensions: ['.jsx', '.tsx'] },
-        ],
-    },
+    extends: [
+        require.resolve('./base'),
+    ],
     overrides: [
         {
             files: ['*.jsx', '*.tsx'],
@@ -21,12 +16,7 @@ module.exports = {
 
                 // warnings
                 'react/destructuring-assignment': 'warn',
-                'react/forbid-prop-types': 'warn',
                 'react/jsx-props-no-spreading': 'warn',
-
-                // off
-                'react/prop-types': 'off',
-                'react/require-default-props': 'off',
 
                 // patch-up a11y
                 'jsx-a11y/label-has-associated-control': [

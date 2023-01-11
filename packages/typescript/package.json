@@ -1,6 +1,6 @@
 {
   "name": "@ixth/eslint-config-typescript",
-  "version": "0.0.1-rc.0",
+  "version": "0.0.1-rc.1",
   "description": "My Preferred ESLint Config For TypeScript Projects",
   "homepage": "https://github.com/ixth/eslint-config#readme",
   "repository": {
@@ -19,9 +19,11 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 4.1.0"
   },
   "dependencies": {
-    "@ixth/eslint-config-base": "^0.0.1-rc.0"
+    "@typescript-eslint/parser": "^5.48.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "eslint-import-resolver-typescript": "^3.5.3"
   }
 }

@@ -1,11 +1,11 @@
 module.exports = {
-    extends: ['@ixth/eslint-config-base'],
     overrides: [
         {
             files: ['*.ts', '*.tsx'],
             extends: [
                 'plugin:@typescript-eslint/eslint-recommended',
                 'plugin:@typescript-eslint/recommended',
+                'plugin:import/typescript',
             ],
             rules: {
                 // replacing eslint rules with @typescript-eslint
@@ -29,4 +29,9 @@ module.exports = {
             },
         },
     ],
+    settings: {
+        'import/parsers': {
+            '@typescript-eslint/parser': ['.ts', '.tsx']
+        },
+    }
 };
