@@ -5,6 +5,7 @@ module.exports = {
             extends: [
                 'plugin:@typescript-eslint/eslint-recommended',
                 'plugin:@typescript-eslint/recommended',
+                'plugin:import/typescript',
             ],
             rules: {
                 // replacing eslint rules with @typescript-eslint
