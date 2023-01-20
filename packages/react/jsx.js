@@ -7,6 +7,7 @@ module.exports = {
             files: ['*.jsx', '*.tsx'],
             extends: [
                 'plugin:jsx-a11y/recommended',
+                'plugin:react/jsx-runtime',
                 'plugin:react-hooks/recommended',
             ],
             rules: {
